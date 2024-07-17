@@ -2,6 +2,9 @@
 import subprocess
 
 def install_rye():
+    """
+    Install rye using curl
+    """
     # First part of the command
     curl_command = ["curl", "-sSf", "https://rye.astral.sh/get"]
 
